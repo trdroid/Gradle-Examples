@@ -234,11 +234,12 @@ The gradle download is packaged with its own Groovy library so any existing groo
 
 All necessary docs.
 * /docs/dsl contains documentation on all available dsls
+* /docs/userguide contains EVERYTHING ABOUT GRADLE
 
 
 <i>gradle-2.11/samples</i>
 
-This directory contains various templates and example for various languages 
+This directory contains templates and examples for various languages like Groovy, Java, Scala and support for IDEs like eclipse, IDEA, build tools like Maven, dependency management tools like Ivory, quality analysis tools like Sonar
 
 > ~/software/gradle/gradle-2.11$ ls samples
 
@@ -247,3 +248,15 @@ This directory contains various templates and example for various languages
     application     componentMetadataRules    customModel          eclipse                  ivy-publish  jvmComponents      multiProjectBuildSrc  plugins  sonarRunner  toolingApi
     buildDashboard  componentSelectionRules   customPlugin         groovy                   java         maven              native-binaries       scala    src          userguide
 
+<i>gradle-2.11/src</i>
+
+This directory contains source code of Gradle
+
+> ~/software/gradle/gradle-2.11$ ls src
+
+    announce              cli                    ide                     javascript       language-scala  native           platform-play       resources       sonar           tooling-api-builders
+    antlr                 code-quality           ide-native              jetty            launcher        open-api         plugin-development  resources-http  testing-base    ui
+    base-services         core                   internal-integ-testing  language-groovy  maven           osgi             plugins             resources-s3    testing-jvm     wrapper
+    base-services-groovy  dependency-management  internal-testing        language-java    messaging       platform-base    plugin-use          resources-sftp  testing-native
+    build-comparison      diagnostics            ivy                     language-jvm     model-core      platform-jvm     publish             scala           test-kit
+    build-init            ear                    jacoco                  language-native  model-groovy    platform-native  reporting           signing         tooling-api
