@@ -54,7 +54,7 @@ dependencies {
 */
 ```
 
-Uncomment and run <i>gradle tasks</i>
+Uncomment to apply the java plugin and enable dependencies for logging and testing frameworks
 
 ```gradle
 /*
@@ -89,6 +89,10 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 ```
+
+Run <i>gradle tasks</i>
+
+The gradle tasks command shows the available tasks that can be run. 
 
 > $ gradle tasks
 
@@ -151,3 +155,4 @@ dependencies {
         
         This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
 
+The tasks listed are from the applied Java plugin. If other plugins are applied, their tasks would show up in the list as well. 
