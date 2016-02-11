@@ -162,3 +162,10 @@ Check what versions of gradle are available:
         JVM:          1.8.0_65 (Oracle Corporation 25.65-b01)
         OS:           Linux 3.16.0-60-generic amd64
 
+
+$GRADLE_HOME is set for you.
+
+> echo $GRADLE_HOME
+
+        /home/droid/.sdkman/candidates/gradle/current
+
