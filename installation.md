@@ -239,7 +239,7 @@ All necessary docs.
 
 <i>gradle-2.11/samples</i>
 
-This directory contains templates and examples for various languages like Groovy, Java, Scala and support for IDEs like eclipse, IDEA, build tools like Maven, dependency management tools like Ivory, quality analysis tools like Sonar
+This directory contains templates and examples for various languages like Groovy, Java, Scala and for IDEs like eclipse, IDEA, build tools like Maven, dependency management tools like Ivory, quality analysis tools like Sonar
 
 > ~/software/gradle/gradle-2.11$ ls samples
 
