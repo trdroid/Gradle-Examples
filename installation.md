@@ -165,13 +165,25 @@ $GRADLE_HOME is set for you.
 
         /home/droid/.sdkman/candidates/gradle/current
 
-### Installation Directory
+<b> Installation Directory </b>
 
 <img src="_misc/Gradle%20installation%20directory.png"/>
 
 <i>current/lib</i>
 
 This directory contains all dependencies (plugins, jar files) that gradle needs. 
+
+> $ ls lib
+
+    ant-1.9.3.jar                  gradle-base-services-groovy-2.11.jar  gradle-native-2.11.jar       jansi-1.2.1.jar            kryo-2.20.jar                           native-platform-osx-amd64-0.10.jar
+    ant-launcher-1.9.3.jar         gradle-cli-2.11.jar                   gradle-open-api-2.11.jar     jarjar-1.3.jar             log4j-over-slf4j-1.7.10.jar             native-platform-osx-i386-0.10.jar
+    asm-all-5.0.3.jar              gradle-core-2.11.jar                  gradle-resources-2.11.jar    javax.inject-1.jar         minlog-1.2.jar                          native-platform-windows-amd64-0.10.jar
+    commons-collections-3.2.1.jar  gradle-docs-2.11.jar                  gradle-tooling-api-2.11.jar  jaxen-1.1.jar              native-platform-0.10.jar                native-platform-windows-i386-0.10.jar
+    commons-io-2.2.jar             gradle-launcher-2.11.jar              gradle-ui-2.11.jar           jcip-annotations-1.0.jar   native-platform-freebsd-amd64-0.10.jar  objenesis-1.2.jar
+    commons-lang-2.6.jar           gradle-messaging-2.11.jar             gradle-wrapper-2.11.jar      jcl-over-slf4j-1.7.10.jar  native-platform-freebsd-i386-0.10.jar   plugins
+    dom4j-1.6.1.jar                gradle-model-core-2.11.jar            groovy-all-2.4.4.jar         jna-3.2.7.jar              native-platform-linux-amd64-0.10.jar    reflectasm-1.07-shaded.jar
+    gradle-base-services-2.11.jar  gradle-model-groovy-2.11.jar          guava-jdk5-17.0.jar          jul-to-slf4j-1.7.10.jar    native-platform-linux-i386-0.10.jar     slf4j-api-1.7.10.jar
+
 
 <i>current/init.d/readme.txt</i>
 
@@ -187,5 +199,8 @@ http://gradle.org/gradle-download/
 
 The gradle download is packaged with its own Groovy library so any existing groovy installation on the system is ignored.
 
+<b> Gradle download Directory </b>
+
+<img src="_misc/manual%20download%20project%20directory.png"/>
 
 
