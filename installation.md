@@ -1,7 +1,3 @@
-http://gradle.org/gradle-download/
-
-The gradle download is packaged with its own Groovy library so any existing groovy installation on the system is ignored.
-
 ## Installation on Ubuntu
 
 ### Prerequisites
@@ -173,10 +169,23 @@ $GRADLE_HOME is set for you.
 
 <img src="_misc/Gradle%20installation%20directory.png"/>
 
-<i>gradle/init.d/readme.txt</i>
+<i>current/lib</i>
+
+This directory contains all dependencies (plugins, jar files) that gradle needs. 
+
+<i>current/init.d/readme.txt</i>
 
 ```text
 You can add .gradle init scripts to this directory. Each one is executed at the start of the build.
 ```
 
 Add functionality that is needed for every gradle build here. Examples include gradle scripts to checkout source code before starting the build process, to start a process to clear out a database etc. 
+
+### Manual Installation
+
+http://gradle.org/gradle-download/
+
+The gradle download is packaged with its own Groovy library so any existing groovy installation on the system is ignored.
+
+
+
