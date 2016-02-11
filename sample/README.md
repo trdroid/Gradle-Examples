@@ -2,7 +2,9 @@
 
 > $ mkdir sample
 
-> $ gradle init
+> cd sample
+
+> sample$ gradle init
 
     :wrapper
     :init
