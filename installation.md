@@ -230,7 +230,13 @@ The gradle download is packaged with its own Groovy library so any existing groo
 
 <img src="_misc/manual%20download%20project%20directory.png"/>
 
+<i>gradle-2.11/docs</i>
+
+All necessary docs
+
 <i>gradle-2.11/samples</i>
+
+This directory contains various templates and example for various languages 
 
 > ~/software/gradle/gradle-2.11$ ls samples
 
