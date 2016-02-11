@@ -232,7 +232,9 @@ The gradle download is packaged with its own Groovy library so any existing groo
 
 <i>gradle-2.11/docs</i>
 
-All necessary docs
+All necessary docs.
+* /docs/dsl contains documentation on all available dsls
+
 
 <i>gradle-2.11/samples</i>
 
