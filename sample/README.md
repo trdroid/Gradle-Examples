@@ -2,7 +2,7 @@
 
 > $ mkdir sample
 
-> cd sample
+> $ cd sample
 
 > sample$ gradle init
 
