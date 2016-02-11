@@ -169,3 +169,14 @@ $GRADLE_HOME is set for you.
 
         /home/droid/.sdkman/candidates/gradle/current
 
+### Installation Directory
+
+<img src="_misc/Gradle%20installation%20directory.png"/>
+
+<i>gradle/init.d/readme.txt</i>
+
+```text
+You can add .gradle init scripts to this directory. Each one is executed at the start of the build.
+```
+
+Add functionality that is needed for every gradle build here. Examples include gradle scripts to checkout source code before starting the build process, to start a process to clear out a database etc. 
