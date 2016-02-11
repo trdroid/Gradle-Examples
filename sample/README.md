@@ -185,4 +185,4 @@ include 'services:webservice'
 rootProject.name = 'sample'
 ```
 
-If the project has many sub-projects, they should be specified in this file using the <i>include</i> command and set the root directory of the main project. 
+If the project has many sub-projects, they should be specified in this file using the <i>include</i> command. Also, the root directory of the main project has to be set. 
