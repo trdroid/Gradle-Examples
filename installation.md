@@ -2,6 +2,8 @@ http://gradle.org/gradle-download/
 
 The gradle download is packaged with its own Groovy library so any existing groovy installation on the system is ignored.
 
+## Installation on Ubuntu
+
 ### Prerequisites
 * Java JDK 1.5+
 
