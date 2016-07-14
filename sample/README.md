@@ -185,4 +185,10 @@ include 'services:webservice'
 rootProject.name = 'sample'
 ```
 
-If the project has many sub-projects, they should be specified in this file using the *include* command. Also, the root directory of the main project has to be set. 
+If the project has many sub-projects, they should be specified in this file using the *include* command. Also, the root directory of the main project can be set here. 
+
+### Gradle Wrapper
+
+Gradle wrapper is the recommended way of running gradle. 
+
+The system does not need to have gradle installed, instead the wrapper would download the files needed.
