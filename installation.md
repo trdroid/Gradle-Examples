@@ -7,7 +7,7 @@
 ### Prerequisites
 * Java JDK 1.5+
 
-<b> Maintaining Multiple versions of Gradle </b>
+** Maintaining Multiple versions of Gradle **
 
 Install sdkman to manage multiple versions of Gradle. (http://sdkman.io/)
 
@@ -124,7 +124,7 @@ Check what versions of gradle are available:
         > - currently in use
         ================================================================================
 
-<b>Install Gradle</b>
+**Install Gradle**
 
 > $ sdk install gradle 2.11
 
@@ -169,11 +169,11 @@ $GRADLE_HOME is set for you.
 
         /home/droid/.sdkman/candidates/gradle/current
 
-<b> Installation Directory </b>
+** Installation Directory **
 
-<img src="_misc/Gradle%20installation%20directory.png"/>
+![](_misc/Gradle%20installation%20directory.png)
 
-<i>current/lib</i>
+*current/lib*
 
 This directory contains all dependencies (plugins, jar files) that gradle needs. 
 
@@ -216,7 +216,7 @@ This directory contains all dependencies (plugins, jar files) that gradle needs.
     gradle-diagnostics-2.11.jar            gradle-reporting-2.11.jar           jetty-6.1.25.jar                      plexus-component-annotations-1.5.5.jar
 
 
-<i>current/init.d/readme.txt</i>
+*current/init.d/readme.txt*
 
 ```text
 You can add .gradle init scripts to this directory. Each one is executed at the start of the build.
@@ -230,18 +230,18 @@ http://gradle.org/gradle-download/
 
 The gradle download is packaged with its own Groovy library so any existing groovy installation on the system is ignored.
 
-<b> Gradle download Directory </b>
+** Gradle download Directory **
 
-<img src="_misc/manual%20download%20project%20directory.png"/>
+![](_misc/manual%20download%20project%20directory.png)
 
-<i>gradle-2.11/docs</i>
+*gradle-2.11/docs*
 
 All necessary docs.
 * /docs/dsl contains documentation on all available dsls
 * /docs/userguide contains EVERYTHING ABOUT GRADLE
 
 
-<i>gradle-2.11/samples</i>
+*gradle-2.11/samples*
 
 This directory contains templates and examples for various languages like Groovy, Java, Scala and for IDEs like eclipse, IDEA, build tools like Maven, dependency management tools like Ivory, quality analysis tools like Sonar
 
@@ -252,7 +252,7 @@ This directory contains templates and examples for various languages like Groovy
     application     componentMetadataRules    customModel          eclipse                  ivy-publish  jvmComponents      multiProjectBuildSrc  plugins  sonarRunner  toolingApi
     buildDashboard  componentSelectionRules   customPlugin         groovy                   java         maven              native-binaries       scala    src          userguide
 
-<i>gradle-2.11/src</i>
+*gradle-2.11/src*
 
 This directory contains source code of Gradle
 
