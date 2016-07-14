@@ -1,3 +1,5 @@
+# Installation
+
 [https://docs.gradle.org/current/userguide/installation.html]()
 
 ## Installation on Ubuntu
@@ -262,3 +264,29 @@ This directory contains source code of Gradle
     base-services-groovy  dependency-management  internal-testing        language-java    messaging       platform-base    plugin-use          resources-sftp  testing-native
     build-comparison      diagnostics            ivy                     language-jvm     model-core      platform-jvm     publish             scala           test-kit
     build-init            ear                    jacoco                  language-native  model-groovy    platform-native  reporting           signing         tooling-api
+
+
+## Installation on Windows
+
+Download complete distribution from [https://gradle.org/gradle-download/]()
+
+Create a new System variable called *GRADLE_HOME* and assign it the path to the unzipped contents of the download (eg. C:\Software\Gradle\gradle-2.14)
+
+Add %GRADLE_HOME%\bin to the System path variable
+
+Start CMD and type in gradle -v
+
+```
+------------------------------------------------------------
+Gradle 2.14
+------------------------------------------------------------
+
+Build time:   2016-06-14 07:16:37 UTC
+Revision:     cba5fea19f1e0c6a00cc904828a6ec4e11739abc
+
+Groovy:       2.4.4
+Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+JVM:          1.8.0_91 (Oracle Corporation 25.91-b15)
+OS:           Windows 10 10.0 amd64
+```
+
