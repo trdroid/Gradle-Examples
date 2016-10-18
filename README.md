@@ -15,7 +15,7 @@ Gradle build scripts are written in a DSL (Domain Specific Language) based on Gr
 **In-memory Representation**
 
 Gradle creates a *Project* object and the *Task* objects based on the build file. A *Task* object consists of a list of *Action* objects. 
-The order of the *Action* objects represent the order in which they need to be executed. 
+The order of the *Action* objects represent the order in which they have to be executed. 
 
 ### Convention over Configuration
 
