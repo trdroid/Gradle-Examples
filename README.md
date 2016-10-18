@@ -4,7 +4,11 @@
 
 To build a project using Gradle, a build script has to be set up. By convention, the build script is called *build.gradle*. 
 
+**Project, Tasks, & Actions**
+
 A *build.gradle* file represents a **project** and contains **task** definitions. Each **task** definition contains a list of **actions**. An **action** is a block of code analagous to a Java method.
+
+**Language**
 
 Gradle build scripts are written in a DSL (Domain Specific Language) based on Groovy. 
 
